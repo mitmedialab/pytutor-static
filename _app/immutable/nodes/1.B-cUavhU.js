@@ -1,0 +1,2 @@
+import{s as a,e as i,c as l,g as c,i as m,n,d}from"../chunks/scheduler.B_HausrX.js";import{S as p,i as u}from"../chunks/index.BGGFpMsM.js";function f(r){let t,o="An error occured";return{c(){t=i("h1"),t.textContent=o},l(e){t=l(e,"H1",{"data-svelte-h":!0}),c(t)!=="svelte-xwilr8"&&(t.textContent=o)},m(e,s){m(e,t,s)},p:n,i:n,o:n,d(e){e&&d(t)}}}class h extends p{constructor(t){super(),u(this,t,null,f,a,{})}}export{h as component};
+//# sourceMappingURL=1.B-cUavhU.js.map
