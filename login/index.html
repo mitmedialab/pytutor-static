@@ -1,24 +1,33 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="https://mitmedialab.github.io/pytutor-static/favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		
-		<link rel="modulepreload" href="https://mitmedialab.github.io/pytutor-static/_app/immutable/entry/start.CEdMca1c.js">
-		<link rel="modulepreload" href="https://mitmedialab.github.io/pytutor-static/_app/immutable/chunks/entry.DuanofX2.js">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="https://mitmedialab.github.io/pytutor-static/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+		<link rel="modulepreload" href="https://mitmedialab.github.io/pytutor-static/_app/immutable/entry/start.DJbGBsS5.js">
+		<link rel="modulepreload" href="https://mitmedialab.github.io/pytutor-static/_app/immutable/chunks/entry.DkumofIP.js">
 		<link rel="modulepreload" href="https://mitmedialab.github.io/pytutor-static/_app/immutable/chunks/scheduler.B_HausrX.js">
 		<link rel="modulepreload" href="https://mitmedialab.github.io/pytutor-static/_app/immutable/chunks/index.BXiy_4TU.js">
 		<link rel="modulepreload" href="https://mitmedialab.github.io/pytutor-static/_app/immutable/chunks/control.CYgJF_JY.js">
-		<link rel="modulepreload" href="https://mitmedialab.github.io/pytutor-static/_app/immutable/entry/app.BZoWrfSu.js">
+		<link rel="modulepreload" href="https://mitmedialab.github.io/pytutor-static/_app/immutable/entry/app.o8jUop5s.js">
 		<link rel="modulepreload" href="https://mitmedialab.github.io/pytutor-static/_app/immutable/chunks/preload-helper.D6kgxu3v.js">
 		<link rel="modulepreload" href="https://mitmedialab.github.io/pytutor-static/_app/immutable/chunks/index.BGGFpMsM.js">
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">
+</head>
+
+<body data-sveltekit-preload-data="hover">
+	<script>
+		if ('serviceWorker' in navigator) {
+			addEventListener('load', function () {
+				navigator.serviceWorker.register('./service-worker.js');
+			});
+		}
+	</script>
+	<div style="display: contents">
 			<script>
 				{
-					__sveltekit_1xinfku = {
+					__sveltekit_m7kmhg = {
 						base: new URL("..", location).pathname.slice(0, -1),
 						assets: "https://mitmedialab.github.io/pytutor-static"
 					};
@@ -26,13 +35,14 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("https://mitmedialab.github.io/pytutor-static/_app/immutable/entry/start.CEdMca1c.js"),
-						import("https://mitmedialab.github.io/pytutor-static/_app/immutable/entry/app.BZoWrfSu.js")
+						import("https://mitmedialab.github.io/pytutor-static/_app/immutable/entry/start.DJbGBsS5.js"),
+						import("https://mitmedialab.github.io/pytutor-static/_app/immutable/entry/app.o8jUop5s.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
 				}
 			</script>
 		</div>
-	</body>
+</body>
+
 </html>
